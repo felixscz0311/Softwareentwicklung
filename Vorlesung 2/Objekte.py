@@ -14,3 +14,6 @@ tom = Katze("Tom")
 
 charlie.speak()
 tom.walk()
+
+print(type(charlie)) #<class 'katze.Katze'>
+print(id(charlie)) #Speicheradresse von Charlie
