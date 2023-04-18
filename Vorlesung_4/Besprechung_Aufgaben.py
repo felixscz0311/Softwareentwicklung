@@ -11,4 +11,4 @@ def aufgabe12 (plaintext, key):
             ciphertext += alphabet[index_neu % len(alphabet)]
         else:
             ciphertext += char
-    return ciphertext   
+    return ciphertext
